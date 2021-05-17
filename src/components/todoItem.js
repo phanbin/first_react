@@ -1,4 +1,4 @@
-import './todoItem.css';
+import './comon.css';
 
 function TodoItem(props) {
     console.log(props);

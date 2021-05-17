@@ -1,0 +1,32 @@
+/* .complete-item {
+    text-decoration: line-through;
+    opacity: 0.3;
+} */
+
+.traffic-light {
+    display: flex;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.2;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.light.active {
+    opacity: 1;
+}
