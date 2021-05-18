@@ -3,7 +3,6 @@ import './App.css';
 
 import TodoItem from './components/todoItem';
 // import TrafficLight from './components/trafficLight';
-import Child from './components/child';
 
 var todoList = [
   {title: 'item 1', isComplete: true},
@@ -28,9 +27,6 @@ function App() {
 
   return <div className="App">
     <header className="App-header">
-      <Child heading="heading" content="content pramater">
-        children content
-      </Child>
       <h1>To do list</h1> <button>sort</button>
       {todoItems.length >0 && todoItems.map((item, index) =>
         <TodoItem key={index} val={item} handleEvent={()=>onItemClicked(item)}></TodoItem>
