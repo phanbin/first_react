@@ -1,14 +1,14 @@
 import './comon.css';
 
 function TodoItem(props) {
-    console.log(props);
+  const { val, handleEvent } = props;
     let className = 'TodoItem';
-    if(props.val.isComplete){
+    if(val.isComplete){
         className += ' complete-item';
     }
   return (
-    <div className= {className}>
-      <p>{props.val.title}</p>
+    <div className={className}>
+      <p onClick={handleEvent}>{val.title}</p>
     </div>
   );
 }

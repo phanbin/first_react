@@ -1,9 +1,9 @@
-/* .complete-item {
+.complete-item {
     text-decoration: line-through;
     opacity: 0.3;
-} */
+}
 
-.traffic-light {
+/* .traffic-light {
     display: flex;
 }
 
@@ -29,4 +29,4 @@
 
 .light.active {
     opacity: 1;
-}
+} */
